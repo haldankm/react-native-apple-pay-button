@@ -1,0 +1,52 @@
+{
+  "name": "react-native-apple-pay-button",
+  "version": "0.1",
+  "description": "Simple Apple Pay button UI component",
+  "scripts": {
+    "run:packager": "cd examples/native && yarn run:packager",
+    "run:ios": "cd examples/native && yarn run:ios",
+    "run:web": "cd examples/web && yarn run:web",
+    "run:demo": "cd examples/native && yarn run:demo",
+    "lint": "eslint ./lib/js",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest"
+  },
+  "homepage": "https://github.com/haldankm/react-native-apple-pay-buttonn",
+  "repository": "https://github.com/haldankm/react-native-apple-pay-button",
+  "keywords": [
+    "react",
+    "react-native",
+    "apple-pay"
+  ],
+  "author": "Manish Haldankar",
+  "license": "MIT",
+  "dependencies": {
+    "es6-error": "^4.0.2",
+    "uuid": "^3.1.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-flowtype": "^4.7.0",
+    "eslint-plugin-import": "^2.17.3",
+    "husky": "^0.14.1",
+    "jest": "20.0.4",
+    "react-native": "^0.63.3",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "peerDependencies": {
+    "react": ">=15",
+    "react-native": ">=0.60"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/examples/"
+    ]
+  },
+  "main": "js/index.js"
+}
